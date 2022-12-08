@@ -29,6 +29,7 @@ public class Assignment {
                 } else {
                     saveCount.put(st, 0);
                 }
+                System.out.println("successfully stored the url");
 
             }
 
@@ -61,10 +62,13 @@ public class Assignment {
                 System.out.println(list);
             }
 
-
-
             else if (input.equals("exit")) {
                 System.exit(1);
+            }
+            else{
+
+              System.out.println("Error! pleas check your command");
+
             }
 
 
