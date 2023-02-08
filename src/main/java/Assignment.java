@@ -68,6 +68,7 @@ public class Assignment {
             else{
 
               System.out.println("Error! pleas check your command");
+              System.out.println("Error Again");
 
             }
 
